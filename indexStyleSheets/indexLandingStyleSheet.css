@@ -1,0 +1,92 @@
+/* Landing Section */
+#landing-section-container {
+    height: 100vh;
+    background: url('cssIndexImages/landingSection/frostPunkBackgroundWallpaper.jpg');
+    background: -moz-linear-gradient(194deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%), url('cssIndexImages/landingSection/frostPunkBackgroundWallpaper.jpg');
+    background: -webkit-linear-gradient(194deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%), url('cssIndexImages/landingSection/frostPunkBackgroundWallpaper.jpg');
+    background: linear-gradient(194deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%), url('cssIndexImages/landingSection/frostPunkBackgroundWallpaper.jpg');
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#000000",GradientType=1); 
+    background-size: cover;
+    background-position: center;
+}
+
+#welcome-container {
+    width: 40%;
+    margin-top: 6.5%;
+}
+
+#creator-social-media {
+    align-items: center;
+    justify-content: center;
+    color: #191919;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#creator-social-media p {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+    margin: 0 1rem 0 0;
+}
+
+#creator-social-media img {
+    width: 15%;
+    background: white;
+    padding: .5rem;
+    border-radius: .5rem;
+    margin: 0 1rem 0 0;
+}
+
+.social-media-btn {
+    background: white;
+    margin: 0 1rem 0 0;
+    padding: 1rem;
+    border-radius: .5rem;
+    color: #191919;
+    transition: transform 250ms ease-in-out;
+}
+
+.social-media-btn:hover {
+    transform: translate(0, -10%);
+}
+
+#creator-social-media > #social-media-specific-style {
+    padding: 1rem 1.2rem;
+}
+
+#creator-social-media a > .fa-play {
+    margin-right: .5rem;
+}
+
+#frostpunk-store-banner {
+    width: 100%;
+}
+
+.store-btn-container {
+    justify-content: center;
+    gap: 1rem;
+}
+
+.store-btn-container:last-child {
+    margin-top: 1rem;
+}
+
+.store-btn {
+    color: #ee8c04;
+    border: 2px solid #ee8c04;
+    border-radius: .125rem;
+    padding: 1rem 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: background 250ms ease-in-out;
+}
+
+.store-btn:hover {
+    background: rgba(238, 140, 4, .25);
+}
+
+.flex-test {
+    justify-content: center;
+}

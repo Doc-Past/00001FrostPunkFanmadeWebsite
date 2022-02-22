@@ -1,0 +1,11 @@
+/* 1680px */
+@media screen and (max-width: 1680px) {
+    .side-space {
+        margin: 0 0;
+    }
+}
+
+/* 1440px */
+@media screen and (max-width: 1440px) {
+    
+}

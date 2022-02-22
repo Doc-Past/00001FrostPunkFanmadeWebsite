@@ -1,0 +1,33 @@
+/* Basic Setup */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 16px;
+    font-family: 'Prompt', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Element Setting */
+.center-element {
+    text-align: center;
+}
+
+/* Element Spacing */
+.side-space {
+    margin: 0 10%;
+}
+
+/* FlexBox Element Type */
+.flex-container {
+    display: flex;
+}
